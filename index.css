@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("abstract.jpg");
+    background-color: rgb(0, 0, 33);
+    color:burlywood;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 48px;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style:none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.firstsection div{
+    width: 30%;
+}
+.leftsection{
+    justify-content: center;
+    width: 34px;
+    font-size: 2rem;
+}
+.rightsection img{
+    width: 80%;
+    margin: 50px 0;
+}
+.c-btn{
+    margin-left: 0%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    padding-left: .5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 3%;
+    background-color: #fca61f;
+    border-radius: .5rem;
+}
+.skill{
+    background-color: transparent;
+}
+
+.text{
+    font-size: 2rem;
+    font-weight: 1000;
+    
+}
+.heading p{
+    font-size: 3rem;
+}
+#myprogress{
+    width:100%;
+    background-color: grey;
+}
+#mybar{
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
